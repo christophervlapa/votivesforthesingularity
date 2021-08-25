@@ -1,0 +1,76 @@
+
+
+.lettermovement-container {
+    font-family: monospace;
+    font-size: 18px;
+    // border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #letters-container {
+        width: 500px;
+        height: 500px;
+        // border: 1px solid red;
+
+        .letter {
+            color: #3d3d3d;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+
+            animation: fadeIn ease 5s;
+            // opacity: 1;
+
+            &:hover {
+                animation: fadeOut ease 2s;
+            }
+        }
+        
+    }
+}
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+  }

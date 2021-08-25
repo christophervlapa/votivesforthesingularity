@@ -1,0 +1,10 @@
+<p>Lettermovement</p>
+<p>25-08-2021</p>
+<div id="lettercutups-container">
+    <div id="letters-container">
+        <span class="letter" mouseout-class="touched" *ngFor="let randomLetterItem of initalRandomLetterArray; let index = index" (mouseout)="changeLetter('letter'+index)" [attr.id]="'letter' + index">{{randomLetterItem}}</span>
+    </div>
+    <div class="reset-letters-container">
+        <a href="" (click)="resetLetters($event); false">Reset letters</a>
+    </div>
+</div>

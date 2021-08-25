@@ -1,0 +1,33 @@
+
+
+#lettercutups-container {
+    font-family: monospace;
+    font-size: 18px;
+    // border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    #letters-container {
+        width: 500px;
+        height: 500px;
+        .letter {
+            color: #bfbfbf;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+
+            &.touched {
+                transition: color 0.5s ease;
+                color: #3e3942;
+            }
+        }
+        
+    }
+
+    .reset-letters-container {
+        padding-top: 10px;
+    }
+}
