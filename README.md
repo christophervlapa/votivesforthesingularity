@@ -1,4 +1,10 @@
-# Cv90l
+# Votives for the Singularity
+
+This artwork creates small votive offerings to The Singularity. Each artwork is interactive and allows for reflection on what it The Sinularity of AI will mean to us all.
+
+The works will be accessible from modern browsers on desktop, tablet and mobile. 
+
+### The usual Angular readme =======================================
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
 
